@@ -822,30 +822,13 @@
           class="portrait-img portrait-main"
           src="portrait-main.png"
           alt="Nada Nawar — idle"
-          onerror="this.style.display='none'; document.getElementById('placeholder1').style.display='flex';"
         >
         <!-- Hover portrait -->
         <img
           class="portrait-img portrait-hover"
           src="portrait-hover.png"
           alt="Nada Nawar — coding mode"
-          onerror="this.style.display='none'; document.getElementById('placeholder2').style.display='flex';"
         >
-        <!-- Placeholder shown only if images missing -->
-        <div class="portrait-placeholder" id="placeholder1">
-          <svg class="avatar-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="28" r="16" fill="#C9A84C" opacity=".5"/>
-            <path d="M10 72c0-16.6 13.4-30 30-30s30 13.4 30 30" stroke="#C9A84C" stroke-width="2.5" stroke-linecap="round" opacity=".4"/>
-          </svg>
-          <span>Add portrait-main.jpg</span>
-        </div>
-        <div class="portrait-placeholder" id="placeholder2" style="display:none; opacity:0; transition: opacity 0.5s;">
-          <svg class="avatar-svg" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="40" cy="28" r="16" fill="#00D4FF" opacity=".5"/>
-            <path d="M10 72c0-16.6 13.4-30 30-30s30 13.4 30 30" stroke="#00D4FF" stroke-width="2.5" stroke-linecap="round" opacity=".4"/>
-          </svg>
-          <span>Add portrait-hover.jpg</span>
-        </div>
         <div class="portrait-overlay"></div>
         <div class="portrait-badge">⌨ CODING MODE ON</div>
       </div>
